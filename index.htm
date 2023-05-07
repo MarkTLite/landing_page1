@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <meta http-equiv="refresh" content="3" /> -->
-
+    <meta http-equiv="refresh" content="3" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
     <link rel="stylesheet" href="index.css" />
     <title>Study Together</title>
 </head>
@@ -17,7 +20,7 @@
         <!-- BEM Naming Style: Component, Element, Modification -->
         <nav class="nav-bar">
             <div class="nav-bar__div1">
-                <img src="images/logo.png" alt="study together logo" />
+                <span><i class="fa fa-envelope-open" aria-hidden="true"></i> Study Together!</span>
             </div>
             <div class="nav-bar__div2"></div>
             <div class="nav-bar__div3">
@@ -32,22 +35,30 @@
             </div>
         </nav>
     </header>
+
     <section class="hero">
         <div class="hero__div1">
-            <div class="hero__div1--heading">A Better Way <br />To <span style="color: #008ae6">Keep Productive</span></div>
-                <div>
+            <div class="hero__div1--heading">A Better Way
+                <div class="hero__underlines">To <span style="color: #008ae6">Keep Productive</span>
+                    <div class="hero__underline1">
+                    </div>
+                    <div class="hero__underline2">
+                    </div>
+                    <div class="hero__underline3">
+                    </div>
+                </div>
             </div>
             <p class="hero__div1--p1">
                 Join the largest global student community online and say goodbye to a lack of<br /> motivation. We are
                 here to help you keep focus while studying.
             </p>
             <div class="hero__div1--buttons">
-                <button style="margin-right: 2vw;">Join a Study Room</button>
-                <button>Discord Server</button>
+                <button class="hero__div1__button1" style="margin-right: 2vw;">Join a Study Room</button>
+                <button class="hero__div1__button2">Discord Server</button>
             </div>
             <p class="hero__div1--p2">
-                I have never been so focussed and productive when studying by myself before. I<br />
-                usually study with a group of friends to stay on track and motivate each other.
+                "I have never been so focussed and productive when studying by myself before. I<br />
+                usually study with a group of friends to stay on track and motivate each other."
             </p>
             <div class="hero__div1--person">
                 <img src="images/testimonial1.png" alt="testimonial pic" />
@@ -58,6 +69,15 @@
             </div>
         </div>
         <div class="hero__div2">
+            <div class="hero__lines-item">
+                <div class="hero__line1">
+                </div>
+                <div class="hero__line2">
+                </div>
+                <div class="hero__line3">
+                </div>
+            </div>
+            <div class="hero__transluscent"></div>
             <div class="hero__time-item">
                 <div class="hero__clock-icon"></div>
                 <div class="hero__studytime">
@@ -66,7 +86,6 @@
                 </div>
             </div>
             <div class="hero__image"></div>
-
         </div>
     </section>
     <section class="why-section">
@@ -146,18 +165,18 @@
                 </p>
             </div>
             <div class="benefits-section__icon-item">
-                <div class="hero__clock-icon"></div>
+                <div class="hero__clock-icon1"></div>
                 <div class="benefits-section__icon-item-text">Keep you Motivated</div>
             </div>
             <div class="benefits-section__icon-item">
-                <div class="hero__clock-icon"></div>
+                <div class="hero__clock-icon1"></div>
                 <div class="benefits-section__icon-item-text">Boosts Your Own Productivity</div>
             </div>
             <div class="benefits-section__button">
                 <button>Learn About it</button>
             </div>
         </div>
-        <div class="benefits-section__div2">
+        <div class="benefits-section__div2"  style="margin-left: 70px;">
             <div class="benefits-section__image1">
             </div>
             <div class="benefits-section__stacked-card">
@@ -175,10 +194,10 @@
             <div class="benefits-section__image1">
             </div>
         </div>
-        <div class="benefits-section__div1">
+        <div class="benefits-section__div1" style="margin-left: 70px;">
             <div class="benefits-section__title">
                 <h3>It's Diverse and Available Energy</h3>
-                <p>Lacking Focus? Go to the Library without actually having to go. Study
+                <p style="width: 450px">Lacking Focus? Go to the Library without actually having to go. Study
                     Together is a community and virtual study space - available always
                     and from everywhere.
                 </p>
@@ -190,7 +209,7 @@
     </section>
     <section class="testimonial-section">
         <div class="testimonial-section__text">
-            <h2>Start Studying Today and Level up your Game.</h2>
+            <h2>Start Studying Today <br/>and Levelup Your Knowledge</h2>
             <p>Its time to choose wisely your learning platform. Bimble has professional<br />
                 mentors and instructors that always helps you to grow up your career.
             </p>
@@ -206,73 +225,79 @@
                     </div>
                 </div>
                 <div class="testimonial-section__testimonial">
-                    If you wish to study in a library-like environment and still have the benefits of studying from home,
-                     this platform is it. You can share your study progress for accountability.
+                    If you wish to study in a library-like environment and still have the benefits of studying from
+                    home,
+                    this platform is it. You can share your study progress for accountability.
                 </div>
             </div>
             <div class="testimonial-section__div2">
                 <div class="testimonial-section_profile">
                     <div class="testimonial-section__img1"></div>
                     <div style="margin-left: 20px;">
-                        <div class="testimonial-section__name">Nicholas Beaulieu</div>
-                        <div class="testimonial-section__tag">@nicholas</div>
+                        <div class="testimonial-section__name">Rufina Lucciano</div>
+                        <div class="testimonial-section__tag">@deathbed2</div>
                     </div>
                 </div>
                 <div class="testimonial-section__testimonial">
-                    If you wish to study in a library-like environment and still have the benefits of studying from home,
-                     this platform is it. You can share your study progress for accountability.
+                    I've been part of it for probably a little over a month and
+                    I've noticed how it's improved my ability to stay focussed. Since
+                    everyone is also studying in the call and working hard, I feel obliged
+                    to stay on task as well. I like that the community is mainly focussed
+                    on studying.
                 </div>
             </div>
             <div class="testimonial-section__div5">
                 <div class="testimonial-section_profile">
                     <div class="testimonial-section__img1"></div>
                     <div style="margin-left: 20px;">
-                        <div class="testimonial-section__name">Nicholas Beaulieu</div>
-                        <div class="testimonial-section__tag">@nicholas</div>
+                        <div class="testimonial-section__name">Nora Trentini</div>
+                        <div class="testimonial-section__tag">@noraaaa</div>
                     </div>
                 </div>
                 <div class="testimonial-section__testimonial">
-                    If you wish to study in a library-like environment and still have the benefits of studying from home,
-                     this platform is it. You can share your study progress for accountability.
+                    The VC level system in <span style="color: #008ae6;">@Study Together</span> keeps
+                    me motivated - the more time spent studying, the more levels you gain and
+                    the fancier your role becomes.
                 </div>
             </div>
             <div class="testimonial-section__div1">
                 <div class="testimonial-section_profile">
                     <div class="testimonial-section__img1"></div>
                     <div style="margin-left: 20px;">
-                        <div class="testimonial-section__name">Nicholas Beaulieu</div>
-                        <div class="testimonial-section__tag">@nicholas</div>
+                        <div class="testimonial-section__name">Alberto Esposito</div>
+                        <div class="testimonial-section__tag">@albertwashere</div>
                     </div>
                 </div>
                 <div class="testimonial-section__testimonial">
-                    If you wish to study in a library-like environment and still have the benefits of studying from home,
-                     this platform is it. You can share your study progress for accountability.
+                    <span style="color: #008ae6;">@Study Together</span> has managed to help me create an environment where
+                    I can study in peace while remaining focussed. The way the server is set up is
+                    ver clever.
                 </div>
             </div>
             <div class="testimonial-section__div4">
                 <div class="testimonial-section_profile">
                     <div class="testimonial-section__img1"></div>
                     <div style="margin-left: 20px;">
-                        <div class="testimonial-section__name">Nicholas Beaulieu</div>
-                        <div class="testimonial-section__tag">@nicholas</div>
+                        <div class="testimonial-section__name">Sofi Carisson</div>
+                        <div class="testimonial-section__tag">@carisson</div>
                     </div>
                 </div>
                 <div class="testimonial-section__testimonial">
-                    If you wish to study in a library-like environment and still have the benefits of studying from home,
-                     this platform is it. You can share your study progress for accountability.
+                    Interesting channels, well-organized server and committed community.
                 </div>
             </div>
             <div class="testimonial-section__div3">
                 <div class="testimonial-section_profile">
                     <div class="testimonial-section__img1"></div>
                     <div style="margin-left: 20px;">
-                        <div class="testimonial-section__name">Nicholas Beaulieu</div>
-                        <div class="testimonial-section__tag">@nicholas</div>
+                        <div class="testimonial-section__name">Takumi Minamoto</div>
+                        <div class="testimonial-section__tag">@takumisan</div>
                     </div>
                 </div>
                 <div class="testimonial-section__testimonial">
-                    If you wish to study in a library-like environment and still have the benefits of studying from home,
-                     this platform is it. You can share your study progress for accountability.
+                    I have never been so focused and    productive  when  studying by myself before.
+                    I usually study with a group of friends to    stay on track and motivate each
+                    other.
                 </div>
             </div>
         </div>
@@ -289,7 +314,9 @@
             <div class="faqs-section__faq-item1">
                 <div class="faqs-section__qn-container">
                     <p>How can I join a Study Call?</p>
-                    <button><div class="faqs-section__button" style="margin-top: 10px;"></div></button>
+                    <button>
+                        <div class="faqs-section__button" style="margin-top: 10px;"></div>
+                    </button>
                 </div>
                 <p>We Currently only need a Zoom Account to be able to join our study calls
                     Simply click on the button on our website or here, and enter your Zoom Credentials.
@@ -299,19 +326,25 @@
             <div class="faqs-section__faq-item2">
                 <div class="faqs-section__qn-container2">
                     <p>Can you unmute me so that I can speak to other people?</p>
-                    <button><div class="faqs-section__button"></div></button>
+                    <button>
+                        <div class="faqs-section__button"></div>
+                    </button>
                 </div>
             </div>
             <div class="faqs-section__faq-item2">
                 <div class="faqs-section__qn-container2">
                     <p>Where can I see all commands for the server?</p>
-                    <button><div class="faqs-section__button"></div></button>
+                    <button>
+                        <div class="faqs-section__button"></div>
+                    </button>
                 </div>
             </div>
             <div class="faqs-section__faq-item2">
                 <div class="faqs-section__qn-container2">
                     <p>Can I join 25- or 50m session call even when it's on break?</p>
-                    <button><div class="faqs-section__button"></div></button>
+                    <button>
+                        <div class="faqs-section__button"></div>
+                    </button>
                 </div>
             </div>
         </div>
@@ -319,7 +352,8 @@
     <section class="join-section">
         <div class="join-section__div">
             <h2>Join Thousands of students Around<br />
-                <div style="color: #008ae6;">The world and start studying Together</div></h2>
+                <div style="color: #008ae6;">The world and start studying Together</div>
+            </h2>
             <div class="join-section__buttons">
                 <button>Join A study Room</button>
                 <button>Discord Server</button>
