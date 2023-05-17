@@ -1,3 +1,5 @@
+/* ###################### FOR DEVICES  */
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -241,7 +243,7 @@ header {
     margin-top: 70px;
     margin-right: 20px;
     /* background-color: #000c33; */
-    background-image: url('images/hero_student.png');
+    background-image: url('../images/hero_student.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
@@ -264,7 +266,7 @@ header {
     margin-right: 15px;
     height: 50px;
     width: 50px;
-    background-image: url('images/clock-solid.svg');
+    background-image: url('../images/clock-solid.svg');
     /* background: #00bfff; */
     background-repeat: no-repeat;
 }
@@ -355,8 +357,9 @@ header {
 
 .why-section img {
     margin: 40px;
-    width: 150px;
-    height: 60px;
+    width: 8rem;
+    height: 4rem;
+    object-fit: contain;
     /* background-color: black; */
 }
 
@@ -432,17 +435,15 @@ header {
     height: 30px;
     width: 30px;
     background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.htw-icon1{
-    background-image: url('images/clock-solid.svg');
+.how-it-works__icon span{
+    font-size: 2rem;
+}
 
-}
-.htw-icon2{
-    background-image: url('images/clock-solid.svg');
-}
-.htw-icon3{
-    background-image: url('images/clock-solid.svg');
-}
 /* ###################### BENEFITS SECTION ######################## */
 
 .benefits-section {
@@ -470,29 +471,31 @@ header {
     margin-left: 10px;
     /* margin-top: 10px; */
     color: #000;
+    font-weight: 600;
 }
 .hero__clock-icon1{
     margin-right: 5px;
-    height: 30px;
-    width: 30px;
-    background-image: url('images/clock-solid.svg');
-    /* background: #00bfff; */
-    background-repeat: no-repeat;
+    color: #2581eb;
+    font-size: 2rem;
 }
 .benefits-section__div2 {
     height: fit-content;
     /* background-color: green; */
     position: relative;
 }
-.benefits-section__image1{
+.benefits-section__image{
     height: 52vh;
     width: 34vw;
-    background-color: #fff;
-    background-image: url('images/motivated.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 20px;
     /* margin-left: 50px; */
+}
+.image1{
+    background: url('../images/motivated.png') no-repeat center center / cover;
+
+}
+.image2{
+    background: url('../images/motivated2.png') no-repeat center center / cover;
+
 }
 .benefits-section__button button{
     padding: 15px 30px;
@@ -670,9 +673,10 @@ header {
 .testimonial-section__img1{
     width: 60px;
     height: 60px;
+    border-radius: 50%;
     background-size: cover;
     /* background-color: #000; */
-    background-image: url('images/testimonial1.png');
+    background-image: url('../images/testimonial1.png');
 }
 .testimonial-section__name{
     color: #000c33;
